@@ -1,0 +1,20 @@
+disqus:
+  comments: false
+  disqus_shortname: 'https-lenpaul-github-io-lagrange'
+
+google-ID: ''
+
+menu:
+- {name: 'Home', path: '.', url: 'index.html'}
+- {name: 'Related Research', path: 'menu', url: 'related.html'}
+
+social:
+- {icon: 'github', link: 'https://www.github.com/sbstn-gbl/p2v-map'}
+- {icon: 'envelope', link: 'mailto:gabel@rsm.nl'}
+
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+sharing_button_prompt: 'Feel free to share!'
+related_posts: 'You may also enjoy:'
+post_date_prefix: 'Written on'
