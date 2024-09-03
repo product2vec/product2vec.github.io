@@ -561,3 +561,43 @@ th, td {
 .Site-content {
   flex: 1;
 }
+
+
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 0px 0px 20px 0px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+.styled-table thead tr {
+    background-color: #36454F;
+    color: #ffffff;
+    border: none;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 1px 10px;
+    border: none;
+}
+
+.styled-table tbody tr {
+    /* border-bottom: 1px solid #E5E4E2; */
+    border: none;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #E5E4E2;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 1px solid #36454F;
+}
+

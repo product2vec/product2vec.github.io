@@ -1,0 +1,182 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+  <title>
+    
+      P2V-MAP Case Study | Product2Vec
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <!-- Use Atom -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Product2Vec" />
+  <!-- Use RSS-2.0 -->
+  <!--<link href="/rss-feed.xml" type="application/rss+xml" rel="alternate" title="Product2Vec | "/>
+  //-->
+
+  <link rel="stylesheet" href="/assets/css/academicons.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab:300|Roboto:400">
+
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+    MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      });
+  </script>
+
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <!-- Use Jekyll SEO plugin -->
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>P2V-MAP Case Study | Product2Vec</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="P2V-MAP Case Study" />
+<meta name="author" content="Sebastian Gabel" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/menu/case.html" />
+<meta property="og:url" content="http://localhost:4000/menu/case.html" />
+<meta property="og:site_name" content="Product2Vec" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/menu/case.html","author":{"@type":"Person","name":"Sebastian Gabel"},"headline":"P2V-MAP Case Study","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+
+
+<body class="Site">
+
+  <main class="Site-content">
+
+    <div class="container">
+
+      <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="/">Product2Vec</a>
+    <small class="masthead-subtitle"></small>
+    <div class="menu">
+  <nav class="menu-content">
+    
+      <a href="/./index.html">Home</a>
+    
+      <a href="/menu/related.html">Related Research</a>
+    
+      <a href="/menu/case.html">Case Study</a>
+    
+      <a href="/menu/applications.html">Applications</a>
+    
+  </nav>
+</div>
+
+  </h3>
+</header>
+
+
+      <div class="post-container">
+        <h2>
+  P2V-MAP Case Study
+</h2>
+
+  <p style="margin-top: 2em;">
+The figure below depicts a product map for a German grocery retailer as produced by
+P2V-MAP. Each point is a product. The colors indicate the products' categories. Below the
+plot, we list the most important P2V-MAP hyperparameters.
+</p>
+
+<div style="float: left; margin-bottom: 2em;">
+<img src="/assets/img/supermarket.svg" width="1000" />
+</div>
+
+<p>Input:</p>
+<table class="styled-table">
+    <thead><tr><th>Data</th><th></th></tr></thead>
+    <tbody>
+        <tr>
+          <td style="width: 150px;">Number of products</td>
+          <td style="width: 75px;">30,231</td></tr>
+        <tr><td>Number of categories</td><td>235</td></tr>
+        <tr><td>Number of shopping baskets</td><td>20,234,313</td></tr>
+        <tr><td>Average basket size (Q1, Q3)</td><td>12 &nbsp;&nbsp;(8, 15)</td></tr>
+    </tbody>
+</table>
+
+<table class="styled-table">
+    <thead><tr><th>Product2Vec Parameters</th><th></th></tr></thead>
+    <tbody>
+        <tr><td style="width: 150px;">Embedding size</td><td style="width: 75px;">128</td></tr>
+        <tr><td>Number of epochs</td><td>10</td></tr>
+        <tr><td>Number of negative samples</td><td>10</td></tr>
+    </tbody>
+</table>
+
+<table class="styled-table">
+    <thead><tr><th>t-SNE parameters</th><th></th></tr></thead>
+    <tbody>
+        <tr><td style="width: 150px;">Embedding size</td><td style="width: 75px;">2</td></tr>
+        <tr><td>Perplexity</td><td>30</td></tr>
+        <tr><td>Initialization</td><td>PCA</td></tr>
+        <tr><td>Dimensions pre-reduction</td><td>50</td></tr>
+    </tbody>
+</table>
+
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer class="footer">
+  <!--
+
+  
+  
+    <a href="https://www.github.com/sbstn-gbl/p2v-map" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="mailto:gabel@rsm.nl" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+
+-->
+
+  
+    <a href="https://www.github.com/sbstn-gbl/p2v-map" class="menu-link" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+
+  
+    <a href="mailto:gabel@rsm.nl" class="menu-link" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+
+
+  <div class="post-date"><a href="/index.html">Product2Vec &#8287; | &#8287; 2019–2024 </a></div>
+</footer>
+
+
+</body>
+
+</html>
