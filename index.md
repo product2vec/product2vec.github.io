@@ -39,3 +39,6 @@ market basket data from over 50 retailers</a> in online and offline settings. Th
 generated actionable insights for product strategy, target marketing, and assortment
 optimization.
 
+<h3>References</h3>
+
+Gabel S, Guhl D, and Klapper D (2019). P2V-MAP: Mapping Market Structure for Large Assortments. _Journal of Marketing Research_, 56(4):557–580.
