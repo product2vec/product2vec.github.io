@@ -6,10 +6,11 @@ google-ID: ''
 
 menu:
 - {name: 'Home', path: '.', url: 'index.html'}
+- {name: 'Approach', path: 'menu', url: 'approach.html'}
 - {name: 'Case Study', path: 'menu', url: 'case.html'}
 - {name: 'Applications', path: 'menu', url: 'applications.html'}
-- {name: 'Alternative Methods', path: 'menu', url: 'methods.html'}
 - {name: 'Related Research', path: 'menu', url: 'related.html'}
+- {name: 'Alternative Methods', path: 'menu', url: 'methods.html'}
 
 social:
 - {icon: 'github', link: 'https://www.github.com/sbstn-gbl/p2v-map'}
