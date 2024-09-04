@@ -1,0 +1,64 @@
+<h3>Alternative approaches for deriving product embeddings</h3>
+
+<p>Below, we list some of the existing approaches for learning (product) embeddings that are
+alternatives to Product2Vec, as used in P2V-MAP. The derived embeddings can be reduced to
+two dimensions with UMAP or t-SNE, yielding product maps. They can also be used as a basis
+for recommender systems or other retail analytics tasks.</p>
+
+<h4>Shopper (Ruiz, Athey, and Blei 2020)</h4>
+
+<p>SHOPPER is a probabilistic model designed to generate item embeddings from consumer
+shopping data, particularly focusing on substitutes and complements. By learning latent
+attributes of items, similar to word embeddings in language models, SHOPPER captures how
+items interact in a shopping basket, accounting for factors like customer preferences,
+seasonality, and price sensitivity.</p>
+
+<h4>LDA-X (Jacobs, Donkers, and Fok 2016)</h4>
+
+<p>The paper presents LDA-X, an extension of the LDA model that can include covariates. LDA-X
+is a model-based approach for purchase prediction in large retail assortments using
+embeddings. These embeddings capture customer preferences and product relationships, which
+can then be used to predict future purchases.</p>
+
+<h4>Triple2Vec (Fionda and Pirro 2019)</h4>
+
+<p>Triple2Vec is a method for learning triple embeddings from knowledge graphs. Unlike
+previous approaches that focus on embedding nodes, Triple2Vec directly embeds graph edges
+(triples) using a line graph representation and random walks to capture relationships
+between triples. The method extends graph embedding techniques by introducing edge
+weighting mechanisms that incorporate semantic proximity for knowledge graphs and
+centrality for homogeneous graphs. This approach is particularly useful for tasks like
+triple classification and clustering, as it improves representation quality by preserving
+the semantic structure of knowledge graphs.</p>
+
+<h4>Item2Vec (Barkan &amp; Koenigstein 2016)</h4>
+
+<p>Item2Vec is a neural embedding technique designed for collaborative filtering. Similar to
+Word2Vec, Item2Vec adapts the Skip-gram with Negative Sampling (SGNS) method to create
+embeddings for items rather than words. The key contribution of Item2Vec is its ability to
+compute item-item relationships directly without relying on user data, making it
+particularly useful in environments where user-item interaction data is unavailable. The
+paper demonstrates that Item2Vec outperforms traditional SVD-based methods, especially for
+less popular items, thus offering improved recommendations and item similarity measures in
+large-scale data sets.</p>
+
+<h4>GloVe (Pennington, Socher, and Manning 2014)</h4>
+
+<p>The GloVe (Global Vectors for Word Representation) model is an unsupervised learning
+algorithm that generates word embeddings by leveraging the co-occurrence statistics of
+words within a large corpus. GloVe combines the strengths of matrix factorization
+techniques and local context window methods to capture semantic relationships between
+words in a vector space. The model’s primary contribution is its ability to generate
+meaningful word vectors that can be used in tasks like word analogy, word similarity, and
+named entity recognition. The method can be applied to market basket data.</p>
+
+<h4>Word2Vec (Mikolov et al. 2013)</h4>
+
+<p>The Word2Vec model introduces an efficient approach to learning word embeddings that
+capture semantic and syntactic relationships between words by learning how to predict the
+context of a word. Word2Vec’s contribution is in its ability to capture complex word
+relationships using simple neural network architectures, while being computationally
+efficient for large data sets. The embeddings produced by Word2Vec are useful in various
+NLP tasks (e.g., word analogy, similarity detection); Word2Vec can be applied to market
+basket data.</p>
+

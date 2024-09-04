@@ -10,6 +10,9 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/menu/methods.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/menu/related.html</loc>
 </url>
 </urlset>
